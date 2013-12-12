@@ -1,6 +1,15 @@
-## 2.1.0 [unreleased]
+## 2.0.11 [unreleased]
 
-* [See full list](https://github.com/refinery/refinerycms/compare/2-0-stable...master)
+* Fixed issue where a superfluous `</div>` would be inserted when using `rails g refinery:engine` for WYSIWYG fields. [#2236](https://github.com/refinery/refinerycms/issues/2236) [Philip Arndt](https://github.com/parndt) and [Rob Yurkowski](https://github.com/robyurkowski)
+* [See full list](https://github.com/refinery/refinerycms/compare/2.0.10...2-0-stable)
+
+## 2.0.10 [15 March 2013]
+
+* Blocked past insecure Rails versions. [Philip Arndt](https://github.com/parndt)
+* Fixed problems with editing pages in different locales. [Philip Arndt](https://github.com/parndt)
+* Locked `truncate_html` to 0.5.x to ensure Ruby 1.8.x compatibility. [Uģis Ozols](https://github.com/ugisozols)
+
+* [See full list](https://github.com/refinery/refinerycms/compare/2.0.9...2.0.10)
 
 ## 2.0.9 [21 November 2012]
 * Allowed extra parameters to be passed when creating image. [#1914](https://github.com/refinery/refinerycms/pull/1914). [tbuyle](https://github.com/tbuyle)
